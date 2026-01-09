@@ -1,0 +1,49 @@
+.dashboard {
+  max-width: 1400px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.posts-list {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.posts-card {
+  background: linear-gradient(135deg, #ffffff, #f8f9fa);
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.posts-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.posts-card h4 {
+  margin-bottom: 8px;
+  color: #1d3557;
+}
+
+.posts-card p {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.loader-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  margin-top: 20px;
+  color: red;
+  text-align: center;
+}

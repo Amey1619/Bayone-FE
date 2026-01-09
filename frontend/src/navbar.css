@@ -1,0 +1,48 @@
+.navbar {
+  height: 64px;
+  background: linear-gradient(135deg, #1d3557, #457b9d);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  border-radius: 10px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-pic {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logout-btn {
+  background: #e63946;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #c82333;
+}
